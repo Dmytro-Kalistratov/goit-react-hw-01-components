@@ -1,0 +1,71 @@
+.profile {
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  border: 1px solid black;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.12), 0px 6px 6px rgba(0, 0, 0, 0.14),
+    0px 8px 6px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.description .avatar {
+  border: 1px solid #b8b8b9;
+  border-radius: 50%;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.12), 0px 3px 3px rgba(0, 0, 0, 0.14),
+    0px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.description p {
+  border-bottom: 2px solid #b8b8b9;
+}
+
+.name {
+  font-size: 26px;
+  color: black;
+}
+
+.tag,
+.location {
+  font-size: 18px;
+  color: #6e6e6e;
+}
+
+.stats {
+  display: flex;
+
+  padding-bottom: 10px;
+}
+
+.stats li {
+  border: 1px solid #b8b8b9;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.stats .label {
+  color: #6e6e6e;
+  font-size: 20px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #b8b8b9;
+}
+
+.quantity {
+  font-size: 24px;
+}

@@ -23,7 +23,7 @@ export default function App() {
       <Statistics title="Upload stats" stats={statData} />
       {/* <Statistics stats={statData} /> */}
       <FriendList friends={friendsData} />
-      <TransactionHistory items={transactions} />;
+      <TransactionHistory items={transactions} />
     </div>
   );
 }
