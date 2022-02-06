@@ -4,7 +4,7 @@ export default function FriendsListItem(props) {
   const { avatar, name, isOnline } = props;
   return (
     <li class="item">
-      <span class="status" isOnline={isOnline}></span>
+      <span class="status" isonline={isOnline.toString()}></span>
       <img class="avatar" src={avatar} alt="User avatar" width="48" />
       <p class="name">{name}</p>
     </li>
