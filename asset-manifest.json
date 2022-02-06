@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Dmytro-Kalistratov/goit-react-hw-01-components/static/css/main.7acaea2f.css",
+    "main.js": "/Dmytro-Kalistratov/goit-react-hw-01-components/static/js/main.3a780a03.js",
+    "index.html": "/Dmytro-Kalistratov/goit-react-hw-01-components/index.html",
+    "main.7acaea2f.css.map": "/Dmytro-Kalistratov/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
+    "main.3a780a03.js.map": "/Dmytro-Kalistratov/goit-react-hw-01-components/static/js/main.3a780a03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.3a780a03.js"
+  ]
+}
