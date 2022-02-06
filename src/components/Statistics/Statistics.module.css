@@ -21,11 +21,11 @@
   color: black;
 }
 
-.stat-list {
+.statList {
   display: flex;
 }
 
-.stat-list .item {
+.item {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -35,15 +35,15 @@
   color: #fff;
 }
 
-.stat-list .item:first-child {
+.item:first-child {
   margin-left: 0;
 }
 
-.stat-list .label {
+.label {
   font-size: 20px;
   border-bottom: 1px solid #fff;
 }
 
-.stat-list .percentage {
+.percentage {
   font-size: 24px;
 }

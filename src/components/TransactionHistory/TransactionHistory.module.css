@@ -1,4 +1,4 @@
-.transaction-history {
+.transactionHistory {
   width: 420px;
   margin-right: auto;
   margin-left: auto;
@@ -11,12 +11,11 @@
     0px 8px 6px rgba(0, 0, 0, 0.2);
 }
 
-.transaction-history tr {
+.transactionHistory tr {
   display: grid;
   grid-template-columns: 100px 80px auto;
 }
-
-.transaction-history td {
+.transactionHistory td {
   border: 1px solid black;
   padding: 5px 10px;
 }

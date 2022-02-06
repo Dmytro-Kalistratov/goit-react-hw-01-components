@@ -1,4 +1,4 @@
-import './Statistics.css';
+import styles from './Statistics.module.css';
 import PropTypes from 'prop-types';
 
 function randomColor() {
@@ -15,18 +15,18 @@ export default function Statistics(props) {
   const { title, stats } = props;
 
   return (
-    <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
+    <section className={styles.statistics}>
+      {title && <h2 className={styles.title}>{title}</h2>}
 
-      <ul className="stat-list">
+      <ul className={styles.statList}>
         {stats.map(el => (
           <li
-            className="item"
+            className={styles.item}
             style={{ backgroundColor: randomColor() }}
             key={el.id}
           >
-            <span className="label">{el.label}</span>
-            <span className="percentage">{el.percentage}%</span>
+            <span className={styles.label}>{el.label}</span>
+            <span className={styles.percentage}>{el.percentage}%</span>
           </li>
         ))}
       </ul>
