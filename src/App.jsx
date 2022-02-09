@@ -2,10 +2,10 @@ import Profile from './components/Profile';
 import Statistics from './components/Statistics';
 import FriendList from './components/FriendList';
 import TransactionHistory from './components/TransactionHistory';
-import userData from './user.json';
-import statData from './data.json';
-import friendsData from './friends.json';
-import transactions from './transactions.json';
+import userData from './data/user.json';
+import statData from './data/data.json';
+import friendsData from './data/friends.json';
+import transactions from './data/transactions.json';
 
 export default function App() {
   return (
@@ -16,9 +16,7 @@ export default function App() {
         tag={userData.tag}
         location={userData.location}
         avatar={userData.avatar}
-        followers={userData.stats.followers}
-        views={userData.stats.views}
-        likes={userData.stats.likes}
+        stats={userData.stats}
       />
       <Statistics title="Upload stats" stats={statData} />
       {/* <Statistics stats={statData} /> */}
